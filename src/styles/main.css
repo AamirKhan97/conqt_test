@@ -1,0 +1,77 @@
+#main-wrapper {
+  padding: 20px;
+}
+#main-wrapper .check-Boxes-Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#main-wrapper .check-Boxes-Flex .form-check-input {
+  margin-right: 10px;
+  &:checked {
+    background-color: #f9f5ff;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+.form-check-input:checked[type="checkbox"] {
+  --bs-form-check-bg-image: url("../images/right.svg");
+}
+
+.submittion-box {
+  text-align: center;
+  margin-top: 40px;
+}
+.submittion-box h1 {
+  margin-bottom: 24px;
+}
+
+.table-box {
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #e4e7ec;
+  margin-bottom: 40px;
+}
+
+.table-box .headin-area {
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-box .headin-area button {
+  background-color: transparent;
+  height: 40px;
+  width: 89px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  color: #777880;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.table-box .dataTable {
+  width: 100%;
+
+  tr th {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  tr td {
+    padding: 20px 10px;
+  }
+}
+.table {
+  border-color: transparent;
+}
+.table-box .dataTable .form-group .form-check-input {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 6px;
+  margin-top: 0px;
+}

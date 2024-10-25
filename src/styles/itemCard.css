@@ -1,0 +1,23 @@
+.item-card {
+  width: 100%;
+}
+.item-card .headingBox {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.item-card .form-card {
+  background: #ebeefd;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px -1px #0c0c0d0d;
+}
+.item-card .form-card .form-box{
+    margin-bottom: 40px;
+}
+.item-card .form-card .form-box .form-control, .form-select{
+    height: 36px;
+    &:focus{
+        box-shadow: none;
+        border-color: transparent;
+    }
+}
